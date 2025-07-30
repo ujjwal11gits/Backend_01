@@ -40,16 +40,16 @@ app.get('/student', (req, res) => {
 
 
 
-// app.listen(port, () => {
-//   console.log("Example app listening")
-// })
-
-
-
-
-
-
-app.listen(process.env.port ,()=>
+app.listen(port, () => {
   console.log("Example app listening")
-)
+})
+
+
+
+
+
+
+// app.listen(process.env.port ,()=>
+//   console.log("Example app listening")
+// )
 
